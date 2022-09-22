@@ -24,3 +24,11 @@ function doTheCounting() {
   const endValue = parseInt(startingValue) + parseInt(input.value);
   result.innerText = endValue;
 }
+
+//LISTEN FOR ENTER
+input.addEventListener("keypress", countAfterKeypress);
+function countAfterKeypress(event) {
+  if (event.key === "Enter") {
+    startCounting();
+  }
+}
