@@ -1,0 +1,9 @@
+html,
+body {
+  height: 100%;
+}
+
+#main-container {
+  background-color: #8e3be725;
+  height: 100%;
+}
